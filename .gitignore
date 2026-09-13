@@ -3,3 +3,6 @@
 .env.*
 .dev.vars
 .dev.vars.*
+
+# Original recording; the optimized web copy is in assets.
+/bhop_demo.mp4
