@@ -26,7 +26,7 @@ main { flex: 1; }
 .skip-link { position: fixed; top: 12px; left: 12px; padding: 8px 16px; background: #edf3df; z-index: 10; transform: translateY(-160%); }
 .skip-link:focus { transform: translateY(0); }
 .header { min-height: 112px; display: flex; flex-wrap: wrap; align-items: center; justify-content: space-between; gap: 12px; padding-block: 20px; }
-.wordmark { font-size: 26px; font-weight: 650; letter-spacing: -1.8px; line-height: 1; padding-block: 10px; }
+.wordmark { font-size: 15px; font-weight: 600; letter-spacing: -.3px; line-height: 1; padding-block: 10px; }
 .wordmark span { color: #7c975c; }
 nav { display: flex; flex-wrap: wrap; gap: 8px; }
 nav a { font-size: 14px; color: var(--muted); padding: 10px 13px; border-radius: 6px; transition: color 160ms, background 160ms; }
@@ -137,3 +137,14 @@ h2 { font-size: 28px; font-weight: 550; letter-spacing: -.8px; }
 .reading-title { color: var(--text); font-size: 14px; }
 .reading-progress { margin-top: 3px; }
 [hidden] { display: none !important; }
+
+.project-extra { margin-top: 32px; padding-top: 28px; border-top: 1px solid var(--line); border-radius: 0; }
+.project-extra .project-copy p { max-width: 640px; }
+.project-destination { margin-top: 12px; color: var(--green); }
+.tutorial-note { margin-top: 12px; color: var(--muted); font-size: 12px; }
+.tutorial-cover { display: block; width: 100%; height: auto; margin-top: 32px; border-radius: 8px; }
+.controls { margin: 0; }
+.controls div { display: grid; grid-template-columns: 160px 1fr; padding: 10px 0; border-bottom: 1px solid var(--line); gap: 16px; }
+.controls dt { font-weight: 500; }
+.controls dd { margin: 0; color: var(--muted); }
+@media (max-width: 420px) { .controls div { grid-template-columns: 120px 1fr; } }
