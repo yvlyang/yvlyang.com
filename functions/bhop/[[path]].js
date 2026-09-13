@@ -1,7 +1,7 @@
 // Serves bhop_brick at yvlyang.com/bhop/.
 // The game lives in its own repo (github.com/yvlyang/bhop_brick) and Cloudflare Pages project;
 // this forwards /bhop/* to that project so visitors never leave yvlyang.com.
-const GAME_ORIGIN = 'https://bhop-brick.pages.dev';
+const GAME_ORIGIN = 'https://bhop-ct6.pages.dev';
 
 export async function onRequest({ request }) {
   const url = new URL(request.url);
