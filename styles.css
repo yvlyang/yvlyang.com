@@ -85,7 +85,7 @@ h2 { font-size: 28px; font-weight: 550; letter-spacing: -.8px; }
 .contact { padding-bottom: 53px; }
 .contact .section-heading { margin-bottom: 17px; }
 .contact > p { color: var(--muted); font-size: 16px; }
-.contact-links { display: flex; flex-wrap: wrap; gap: 4px 26px; margin-top: 18px; }
+.contact-links { display: flex; flex-direction: column; align-items: flex-start; gap: 6px; margin-top: 18px; }
 .contact-link { display: inline-flex; gap: 8px; align-items: center; font-size: 14px; padding: 5px 0; }
 .contact-link svg { width: 15px; height: 15px; }
 .contact-link span { margin-left: 7px; color: var(--muted); }
