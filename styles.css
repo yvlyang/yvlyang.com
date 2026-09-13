@@ -149,3 +149,6 @@ h2 { font-size: 28px; font-weight: 550; letter-spacing: -.8px; }
 .projects .project { margin: 0; padding: 26px 10px; gap: 22px; border-bottom: 1px solid var(--line); border-radius: 0; }
 .projects .project-copy p { max-width: 630px; }
 .projects .project:first-of-type { border-top: 1px solid var(--line); }
+
+.tag-playable { color: var(--green); background: #edf2e7; }
+.project-play { display: inline-flex; align-items: center; gap: 8px; margin-top: 12px; color: var(--green); font-size: 14px; font-weight: 600; }
