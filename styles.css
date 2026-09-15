@@ -167,7 +167,7 @@ body::before, body::after {
   filter: url("#calligraphy-warp");
   mask-image: linear-gradient(to right, #000 0%, #000 35%, transparent 100%);
   -webkit-mask-image: linear-gradient(to right, #000 0%, #000 35%, transparent 100%);
-  animation: calligraphy-drift 24s ease-in-out infinite alternate;
+  animation: calligraphy-drift 21s ease-in-out infinite alternate;
 }
 body::before { left: 0; }
 body::after {
@@ -175,7 +175,7 @@ body::after {
   background-position: right center;
   mask-image: linear-gradient(to left, #000 0%, #000 35%, transparent 100%);
   -webkit-mask-image: linear-gradient(to left, #000 0%, #000 35%, transparent 100%);
-  animation-duration: 29s;
+  animation-duration: 25s;
   animation-delay: -12s;
   animation-direction: alternate-reverse;
 }
