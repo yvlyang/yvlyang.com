@@ -162,7 +162,7 @@ body::before, body::after {
   width: max(0px, calc((100vw - 820px) / 2));
   pointer-events: none;
   z-index: 0;
-  background: url("assets/calligraphy-sides.png") left center / auto 115% no-repeat;
+  background: url("assets/calligraphy-sides.png") left center / auto 100% no-repeat;
   opacity: .58;
   filter: url("#calligraphy-warp");
   mask-image: linear-gradient(to right, #000 0%, #000 35%, transparent 100%);
