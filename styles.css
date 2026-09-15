@@ -159,10 +159,10 @@ body::before, body::after {
   position: fixed;
   top: -60px;
   bottom: -60px;
-  width: max(0px, calc((100vw - 820px) / 2));
+  width: max(0px, calc((100vw - 980px) / 2));
   pointer-events: none;
   z-index: 0;
-  background: url("assets/calligraphy-sides.png") left center / auto 100% no-repeat;
+  background: url("assets/calligraphy-sides.png") left center / auto 115% no-repeat;
   opacity: .58;
   filter: url("#calligraphy-warp");
   mask-image: linear-gradient(to right, #000 0%, #000 35%, transparent 100%);
