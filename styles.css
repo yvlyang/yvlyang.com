@@ -164,6 +164,7 @@ body::before, body::after {
   z-index: 0;
   background: url("assets/calligraphy-sides.png") left center / auto 115% no-repeat;
   opacity: .58;
+  filter: url("#calligraphy-warp");
   mask-image: linear-gradient(to right, #000 0%, #000 35%, transparent 100%);
   -webkit-mask-image: linear-gradient(to right, #000 0%, #000 35%, transparent 100%);
   animation: calligraphy-drift 24s ease-in-out infinite alternate;
@@ -180,8 +181,8 @@ body::after {
 }
 .page { position: relative; z-index: 1; }
 @keyframes calligraphy-drift {
-  from { transform: translateY(-28px); }
-  to { transform: translateY(28px); }
+  from { transform: translateY(-28px) skewY(-1deg) scaleX(1.02); }
+  to { transform: translateY(28px) skewY(1deg) scaleX(1.04); }
 }
 @media (max-width: 900px) { body::before, body::after { display: none; } }
 @media (prefers-reduced-motion: reduce) { body::before, body::after { animation: none; } }
