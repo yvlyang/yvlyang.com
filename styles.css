@@ -205,7 +205,8 @@ body::after {
 /* Shared page rhythm: every page title starts at the same height. */
 .header { min-height: 80px; padding-block: 0; }
 .intro, .section { padding-top: 40px; }
-.intro { padding-bottom: 36px; }
+/* Grow the gap above home projects into spare height without pushing the footer off screen. */
+.intro { padding-bottom: clamp(36px, calc(100vh - 708px), 64px); padding-bottom: clamp(36px, calc(100svh - 708px), 64px); }
 .intro h1 { margin: 0 0 12px; }
 .intro-link { margin-top: 16px; }
 /* Home is compact so the contact links show without scrolling. */
