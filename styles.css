@@ -196,3 +196,10 @@ body::after {
   .footer-contacts .contact-link:first-child { flex-basis: 100%; justify-content: center; }
   .footer-contacts .contact-divider:nth-child(2) { display: none; }
 }
+
+.home-projects { padding: 0 0 48px; }
+.home-projects .section-heading { align-items: center; }
+.home-projects .section-heading h2 { font-size: 23px; }
+.home-projects .project-title h3 { font-size: 16px; line-height: 1.5; font-weight: 550; letter-spacing: 0; }
+.home-projects .project { padding-block: 20px; }
+.about-block .site-note { font-size: 14px; color: #7b8075; }

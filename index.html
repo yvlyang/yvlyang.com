@@ -11,7 +11,7 @@
   <meta property="og:image" content="https://yvlyang.com/assets/bhop-og.jpg">
   <meta property="og:url" content="https://yvlyang.com/">
   <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'%3E%3Crect width='64' height='64' rx='16' fill='%23edf3df'/%3E%3Ctext x='32' y='43' font-family='Arial' font-size='34' text-anchor='middle' fill='%232a3322'%3Ek%3C/text%3E%3C/svg%3E">
-  <link rel="stylesheet" href="styles.css?v=e055a565e386">
+  <link rel="stylesheet" href="styles.css?v=a7ddb97f5b31">
 </head>
 <body>
   <svg aria-hidden="true" focusable="false" style="position: absolute; width: 0; height: 0; overflow: hidden;">
@@ -35,11 +35,35 @@
 
     <main id="main">
       <section class="intro" id="home" aria-labelledby="home-title">
-        <p class="eyebrow">Home</p>
         <h1 id="home-title">Hi, I’m Kevin<span class="hello-dot">.</span></h1>
-        <p class="intro-copy">Welcome to my little corner of the internet.</p>
-        <p class="intro-note">A place for things I make, what I’m into, and a way to say hello.</p>
+        <p class="intro-copy">I’m a Cornell CS student interested in computer vision, AI, and design.</p>
         <a class="text-link intro-link" href="about/index.html">A little about me <span aria-hidden="true">→</span></a>
+      </section>
+      <section class="projects home-projects" aria-labelledby="selected-title">
+        <div class="section-heading"><h2 id="selected-title">Selected projects</h2><a class="text-link" href="projects/index.html">All projects <span aria-hidden="true">→</span></a></div>
+        <a class="project" href="projects/bhop/index.html">
+          <div class="project-copy">
+            <div class="project-title"><h3>bhop</h3><span class="tag tag-playable">Playable in browser</span></div>
+            <p>A browser bunnyhopping game with two maps, timed runs, and replays.</p>
+            <span class="project-meta">JavaScript <span aria-hidden="true">·</span> Three.js <span aria-hidden="true">·</span> WebGL</span>
+            <span class="project-play">Learn &amp; play <span aria-hidden="true">→</span></span>
+          </div>
+          <span class="project-arrow" aria-hidden="true">↗</span>
+        </a>
+        <a class="project" href="https://github.com/yvlyang/restaurant-cv" target="_blank" rel="noopener">
+          <div class="project-copy">
+            <div class="project-title"><h3>Restaurant CV</h3><span class="tag">Computer vision</span></div>
+            <p>Computer vision for tracking restaurant activity and measuring customer dwell time.</p>
+            <span class="project-meta">Python · YOLO · OpenCV · pandas</span>
+          </div><span class="project-arrow" aria-hidden="true">↗</span>
+        </a>
+        <a class="project" href="https://github.com/yvlyang/storyside" target="_blank" rel="noopener">
+          <div class="project-copy">
+            <div class="project-title"><h3>Storyside</h3><span class="tag">AI &amp; reading</span></div>
+            <p>An AI reading companion that brings PDF stories to life with consistent illustrations.</p>
+            <span class="project-meta">React · TypeScript · PDF.js · AI illustration</span>
+          </div><span class="project-arrow" aria-hidden="true">↗</span>
+        </a>
       </section>
     </main>
 
